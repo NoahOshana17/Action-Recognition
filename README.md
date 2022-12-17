@@ -14,13 +14,13 @@ Building this model from scratch provided a few benefits compared to grabbing a 
 
 https://user-images.githubusercontent.com/70036220/208224872-35ce0a37-0642-489c-9bff-4452c3b12dd6.mp4
 
-This video demontrates a logistic regression model performing action recognition. The model appears to be performing quite well for the small amount of data that is being used to train the model..... Or as we thought, see video #2. 
+This video demonstrates a logistic regression model performing action recognition. The model appears to be performing quite well for the small amount of data that is being used to train the model..... Or as we thought, see video #2. 
 
 #### Video #2: Problems with our Initially Trained Logistic Regression Model
 
 https://user-images.githubusercontent.com/70036220/208225169-0141056b-cda2-4516-b00b-395bbb494f4d.mp4
 
-In this video, I have removed all of the landmarks and connections to provide a more clearer frame. In this video you will see several issues with this model. One of these issues arises with the tilting of my head. As you see me smile and proceed to move my head from left to right and vice versa, the model begins to fail in its detections. Same thing happens as I begin to wave. Initially the model detects the waving action, but as I begin to wave closer to the front of my body, the mdoel begins to fail in its detections again. 
+In this video, I have removed all of the landmarks and connections to provide a more clearer frame. In this video you will see several issues with this model. One of these issues arises with the tilting of my head. As you see me smile and proceed to move my head from left to right and vice versa, the model begins to fail in its detections. Same thing happens as I begin to wave. Initially the model detects the waving action, but as I begin to wave closer to the front of my body, the model begins to fail in its detections again. 
 
 Solution: These faults in the model performance are a result of inadequate data. Thus, we can go back to our landmark extracting steps, and provide our model more data to better learn and generalize. A further trained model is showcased in video #3, and video #4 is the further trained model without the landmarks and connections to provide a more clear picture of how the model is improving. 
 
