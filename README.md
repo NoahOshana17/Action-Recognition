@@ -1,7 +1,7 @@
 # Real-time Action Recognition from Scratch
 
 
-This is a quick project showing the capabilities of using machine learning for action recognition software. In this project you will see code that is used to develop a machine learning computer vision model to detect certain actions in real-time. This project uses renown open-source libraries such as Mediapipe and Scikit-learn, as well as many others.
+This is a quick project showing the capabilities of using machine learning for action recognition software. In this project you will see code that is used to develop a machine learning computer vision model to detect certain actions in real-time. These actions consist of: a "neutral" state, smiling, waving, and dropping my head to signal a sad emotion. This project uses renown open-source libraries such as Mediapipe and Scikit-learn, as well as many others.
 
 In this specific project, we use Mediapipe's Holistic solution (link: https://google.github.io/mediapipe/solutions/holistic). I chose to use this solution over some of Mediapipe's other solutions (such as their Pose solution) due to the larger number of landmarks, especially in the facial region. With these additional landmarks, more specific facial actions, such as smiling, were easier to learn for the models. The holistic model also utilizes the landmarks in the pose solution, providing the enablement of various applications and actions to be learned. 
 
@@ -10,6 +10,8 @@ Building this model from scratch provided a few benefits compared to grabbing a 
 
 ## Video Footage of our Logistic Regression Model Running in Real-Time
 
-#### Video 1: Initially Trained Logistic Regression Model
+#### Video #1: Initially Trained Logistic Regression Model
 
 https://user-images.githubusercontent.com/70036220/208224872-35ce0a37-0642-489c-9bff-4452c3b12dd6.mp4
+
+This video demontrates a logistic regression model performing action recognition. The model appears to be performing quite well for the small amount of data that is being used to train the model..... Or as we thought, see video #2. 
