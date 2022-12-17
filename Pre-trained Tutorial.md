@@ -4,7 +4,7 @@
 Walking through the jupyter notebook provided step by step will allow you to create your dataset and train models from scratch. However, loading and testing the models provided in this repository can be acconmplished by running only a few notebook cells, as shown below.
 
 
-#### Cell 1: Can be found at the beginning of the 
+#### Step 1: Import Dependencies. This should be the first cell in the ActionRec.ipynb
 
 ```python
 import mediapipe as mp
@@ -16,27 +16,29 @@ import csv
 from sklearn.model_selection import train_test_split
 ```
 
-
+#### Step 2: Declaring our Mediapipe solutions. This should be cell #2 in ActionRec.ipynb
 
 ```python
 mp_drawing = mp.solutions.drawing_utils 
 mp_holistic = mp.solutions.holistic 
 ```
-
+#### Step 3: Import Pickle library. This should be cell #21 at the end of the training phase in ActionRec.ipynb
 
 ```python
 from sklearn.metrics import accuracy_score
 import pickle
 ```
 
-
+#### Step 4: Load the desired model. This should be cell #24 at the "Loading our model" section in ActionRec.ipynb
 
 ```python
 with open('Action_Recognition_lr_2.pkl', 'rb') as f:
     model = pickle.load(f)
 ```
+Note: Here you can change 'Action_Recognition_lr_2.pkl' to the name of any of the other models provided, or a model you trained yourself. 
 
 
+#### Step 5: Making the detections using webcam. This should be cell #26 under the "Using webcam for real-time detections" section in ActionRec.ipynb
 
 ```python
 cap = cv2.VideoCapture(0)
@@ -132,3 +134,6 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
 cap.release()
 cv2.destroyAllWindows()
 ```
+
+
+Note: In ActionRec.ipynb, the very last cell under the section "Same as previous cell, except here we commented out the landmarks and will only show you the prediction and accuracy" can be used in replace of step 5, depending on preferences for the visualizations.
