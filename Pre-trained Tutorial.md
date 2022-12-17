@@ -4,7 +4,7 @@
 Walking through the jupyter notebook provided step by step will allow you to create your dataset and train models from scratch. However, loading and testing the models provided in this repository can be acconmplished by running only a few notebook cells, as shown below.
 
 
-
+#### Cell 1: Can be found at the beginning of the 
 
 ```python
 import mediapipe as mp
