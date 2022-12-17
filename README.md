@@ -12,3 +12,4 @@ Building this model from scratch provided a few benefits compared to grabbing a 
 
 #### Video 1: Initially Trained Logistic Regression Model
 
+https://user-images.githubusercontent.com/70036220/208224872-35ce0a37-0642-489c-9bff-4452c3b12dd6.mp4
