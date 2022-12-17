@@ -15,3 +15,8 @@ Building this model from scratch provided a few benefits compared to grabbing a 
 https://user-images.githubusercontent.com/70036220/208224872-35ce0a37-0642-489c-9bff-4452c3b12dd6.mp4
 
 This video demontrates a logistic regression model performing action recognition. The model appears to be performing quite well for the small amount of data that is being used to train the model..... Or as we thought, see video #2. 
+
+#### Video #2: Problems with our Initially Trained Logistic Regression Model
+
+https://user-images.githubusercontent.com/70036220/208225169-0141056b-cda2-4516-b00b-395bbb494f4d.mp4
+
